@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>We Can Recycle IT</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Recycle Made Easy</h1>
@@ -13,10 +14,10 @@
         <wrapper class="flex-wrapper-left">
             <!-- #1 as seen on the paper schematic. -->
             <section class="location-selection-container">
-                <h3>Select a location</h3>
+                <h3 class="location-selection-header">Select a location</h3>
                 <wrapper class="location-wrapper">
                     <div class="dropdown">
-                      <p>By town</p>
+                      <p class="by-town">By town ▼</p>
                         <div class="dropdown-content">
                           <p><a>Daba-wala</a></p>
                           <p><a>Worthington</a></p>
@@ -25,15 +26,38 @@
                     </div>
                       <form>
                         <label for="fname">By ZIP code</label>
-                        <input type="text">
-                        <input type="submit" value="Submit">
+                        <input class="input" type="text">
+                        <input class="submit" type="submit" value="Submit">
                       </form>
                 </wrapper>
             </section>
 
             <!-- #3 on the paper schematic -->
             <section class="recycling-category-container">
-                <p>This is where the categories will be.</p>
+                <label>
+                    <input type="checkbox">
+                    <span class="checkmark">Pop cans</span>
+                </label>
+                <label>
+                        <input type="checkbox" >
+                        <span class="checkmark">Paint</span>
+                </label>
+                <label>
+                    <input type="checkbox" >
+                    <span class="checkmark">E-waste</span>
+                </label>
+                <label>
+                    <input type="checkbox" >
+                    <span class="checkmark">Plastic bags</span>
+                </label>
+                <label>
+                    <input type="checkbox" >
+                    <span class="checkmark">Eyeglasses</span>
+                </label>
+                <label>
+                    <input type="checkbox" >
+                    <span class="checkmark">Milk jugs</span>
+                </label>
             </section>
 
             <!-- #4 on the paper schematic -->
@@ -48,4 +72,8 @@
     </wrapper>
 
 </body>
+
+<footer>
+    <p class="copyright">&copy; Recycle Mady Easy 2019</p>
+</footer>
 </html>
