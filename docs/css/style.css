@@ -55,10 +55,20 @@ body {
   align-items: center;
 }
 
+.google-map {
+  overflow: hidden;
+  padding-bottom: 40%;
+  position: relative;
+  height: 0;
+  
+}
+
 h1 {
   text-align: center;
   color: var(--oscar-the-grouch);
 }
+
+
 
 .input {
   background-color: rgb(167, 221, 167);
