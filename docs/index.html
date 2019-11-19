@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <h1>Recycle Made Easy</h1>
     <wrapper class="flex-wrapper-outer">
@@ -17,18 +19,18 @@
                 <h3 class="location-selection-header">Select a location</h3>
                 <wrapper class="location-wrapper">
                     <div class="dropdown">
-                      <p class="by-town">By town ▼</p>
+                        <p class="by-town">By town ▼</p>
                         <div class="dropdown-content">
-                          <p><a>Daba-wala</a></p>
-                          <p><a>Worthington</a></p>
-                          <p><a>Westerville</a></p>
+                            <p><a>Daba-wala</a></p>
+                            <p><a>Worthington</a></p>
+                            <p><a>Westerville</a></p>
                         </div>
                     </div>
-                      <form>
+                    <form>
                         <label for="fname">By ZIP code</label>
                         <input class="input" type="text">
                         <input class="submit" type="submit" value="Submit">
-                      </form>
+                    </form>
                 </wrapper>
             </section>
 
@@ -39,23 +41,23 @@
                     <span class="checkmark">Pop cans</span>
                 </label>
                 <label>
-                        <input type="checkbox" >
-                        <span class="checkmark">Paint</span>
+                    <input type="checkbox">
+                    <span class="checkmark">Paint</span>
                 </label>
                 <label>
-                    <input type="checkbox" >
+                    <input type="checkbox">
                     <span class="checkmark">E-waste</span>
                 </label>
                 <label>
-                    <input type="checkbox" >
+                    <input type="checkbox">
                     <span class="checkmark">Plastic bags</span>
                 </label>
                 <label>
-                    <input type="checkbox" >
+                    <input type="checkbox">
                     <span class="checkmark">Eyeglasses</span>
                 </label>
                 <label>
-                    <input type="checkbox" >
+                    <input type="checkbox">
                     <span class="checkmark">Milk jugs</span>
                 </label>
             </section>
@@ -66,14 +68,17 @@
             </section>
         </wrapper>
         <!-- #2 on the paper schematic -->
-        <section class="google-map">
-            <img src="./square.jpg">
-        </section>
+        <div class="google-map">
+            <!-- <img src="./square.jpg"> -->
+            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=10&center=39.9612%2C-82.9988&key=AIzaSyAZpUBB7ZJkWZnjMIK7bscJVc_6km5D6O4" allowfullscreen></iframe>
+        </div>
     </wrapper>
 
+   
 </body>
 
 <footer>
     <p class="copyright">&copy; Recycle Mady Easy 2019</p>
 </footer>
+
 </html>
