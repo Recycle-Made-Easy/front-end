@@ -90,6 +90,33 @@ label {
     grid-template-columns: 1fr 1fr;
 }
 
+.location-form__button {
+    align-self: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.25rem;
+    padding: .25rem;
+    width: 100%;
+}
+
+.location-form__button:focus {
+    background-color: #ffdb3a;    
+}
+
+
+.location-form__fieldset {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.location-form__field {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: .5rem;
+    padding: .25rem;
+}
+
 .recycling-category-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
