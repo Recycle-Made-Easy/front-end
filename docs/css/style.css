@@ -60,15 +60,34 @@ body {
   padding-bottom: 40%;
   position: relative;
   height: 0;
-  
 }
 
-h1 {
-  text-align: center;
+.header__container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__left-side {
+}
+
+.header__menu {
+  background-color: var(--oscar-the-grouch);
+}
+
+.header__right-side {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.header__title {
   color: var(--oscar-the-grouch);
+  margin: 1rem;
+  padding: 1rem;
 }
-
-
 
 .input {
   background-color: rgb(167, 221, 167);
@@ -131,6 +150,26 @@ label {
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 0.5rem;
   padding: 0.25rem;
+}
+
+.nav__container {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.nav__list {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav__list-item {
+  list-style: none;
+  padding: 0.5rem;
+  text-decoration: none;
 }
 
 .recycling-category-container {
